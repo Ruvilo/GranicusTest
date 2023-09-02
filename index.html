@@ -1,111 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
     <title>Granicus Test</title>
 </head>
+
 <body>
     <section class="form">
         <h1 class="ttl-section">Personal Information</h1>
         <div class="name-container">
             <div class="form-element required">
                 <label for="first-name">First Name</label>
-                <input type="text">
+                <input id="first-name" type="text">
             </div>
             <div class="form-element">
                 <label for="middle-initial">Middle Initial</label>
-                <input type="text">
+                <input id="middle-initial" type="text">
             </div>
             <div class="form-element required">
                 <label for="last-name">Last Name</label>
-                <input type="text">
+                <input id="last-name" type="text">
             </div>
         </div>
-        <div class="residential-container">
+        <div class="residential-container grid-data">
             <div class="form-element required">
-                <label for="street-address">Residential Street Address</label>
-                <input type="text">
+                <label for="residential-street-1">Residential Street Address</label>
+                <input id="residential-street-1" type="text">
             </div>
             <div class="form-element">
-                <label for="street-address">Residential Street Address 2</label>
-                <input type="text">
+                <label for="residential-street-2">Residential Street Address 2</label>
+                <input id="residential-street-2" type="text">
             </div>
             <div class="form-element required">
                 <label for="residential-city">Residential City</label>
-                <input type="text">
+                <input id="residential-city" type="text">
             </div>
             <div class="form-element required">
                 <label for="residential-zip">Residential Zip</label>
-                <input type="text">
+                <input id="residential-zip" type="text">
             </div>
         </div>
-        <div class="mailing-container">
-            <div class="form-element">
-                <label for="mailing-address">Is your Mailing Address the same as your Residential Address?</label>
-                <input type="checkbox">
-            </div>
+        <div class="form-element">
+            <label for="mailing-checkbox">Is your Mailing Address the same as your Residential Address?</label>
+            <label><input id="mailing-checkbox" type="checkbox"/>Yes</label>
+        </div>
+        <div class="mailing-container grid-data">
             <div class="form-element">
                 <label for="mailing-address">Mailing Street Address</label>
-                <input type="text">
+                <input id="mailing-address" type="text">
             </div>
             <div class="form-element">
-                <label for="street-address">Mailing Street Address 2</label>
-                <input type="text">
+                <label for="mailing-address-2">Mailing Street Address 2</label>
+                <input id="mailing-address-2" type="text">
             </div>
             <div class="form-element required">
                 <label for="mailing-city">Mailing City</label>
-                <input type="text">
+                <input id="mailing-city" type="text">
             </div>
             <div class="form-element required">
                 <label for="mailing-zip">Mailing Zip</label>
-                <input type="text">
+                <input id="mailing-zip" type="text">
             </div>
         </div>
-        <div class="contacts-container">
+        <div class="contacts-container grid-data">
             <div class="form-element required">
-                <label for="street-address">Primary Phone Number</label>
-                <input type="text">
+                <label for="primary-phone">Primary Phone Number</label>
+                <input id="primary-phone" type="text">
             </div>
             <div class="form-element">
-                <label for="street-address">Secondary Phone Number</label>
-                <input type="text">
+                <label for="secondary-phone">Secondary Phone Number</label>
+                <input id="secondary-phone" type="text">
             </div>
             <div class="form-element">
-                <label for="residential-city">Fax Number</label>
-                <input type="text">
+                <label for="fax-number">Fax Number</label>
+                <input id="fax-number" type="text">
             </div>
             <div class="form-element required">
-                <label for="residential-zip">E-mail Address</label>
-                <input type="text">
+                <label for="email-address">E-mail Address</label>
+                <input id="email-address" type="text">
             </div>
         </div>
-        
+
         <h1 class="ttl-section">Acknowledgment</h1>
-        <p class="ttl-ack">PLEASE READ THE FOLLOWING STATEMENT CAREFULLY BEFORE 
+        <p class="ttl-ack">PLEASE READ THE FOLLOWING STATEMENT CAREFULLY BEFORE
             SUBMITTING YOUR APPLICATION:</p>
-        <p>I CERTIFY THAT ALL STATEMENTS THAT I HAVE MADE ON THIS APPLICATION 
-            AND ANY OTHER SUPPLEMENTARY MATERIALS ARE TRUE AND CORRECT 
-            I HEREBY AUTHORIZE THE CITY OF TEMPLE TO INVESTIGATE THE ACCURACY OF 
-            THIS INFORMATION FROM ANY PERSON OR ORGANIZATION, AND I RELEASE THE 
-            CITY OF TEMPLE AND ALL PERSONS AND ORGANIZATION FROM ALL CLAIMS AND 
-            LIABILITIES ARISING FROM SUCH INVESTIGATION OR THE SUPPLYING OF 
-            INFORMATION FOR SUCH INVESTIGATION. I ACKNOWLEDGE THAT ANY FALSE 
-            STATEMENT OR MISREPRESENTATION ON THIS APPLICATION OR SUPPLEMENTARY 
-            MATERIALS WILL BE CAUSE FOR REFUSAL OF APPOINTMENT OR IMMEDIATE 
+        <p>I CERTIFY THAT ALL STATEMENTS THAT I HAVE MADE ON THIS APPLICATION
+            AND ANY OTHER SUPPLEMENTARY MATERIALS ARE TRUE AND CORRECT
+            I HEREBY AUTHORIZE THE CITY OF TEMPLE TO INVESTIGATE THE ACCURACY OF
+            THIS INFORMATION FROM ANY PERSON OR ORGANIZATION, AND I RELEASE THE
+            CITY OF TEMPLE AND ALL PERSONS AND ORGANIZATION FROM ALL CLAIMS AND
+            LIABILITIES ARISING FROM SUCH INVESTIGATION OR THE SUPPLYING OF
+            INFORMATION FOR SUCH INVESTIGATION. I ACKNOWLEDGE THAT ANY FALSE
+            STATEMENT OR MISREPRESENTATION ON THIS APPLICATION OR SUPPLEMENTARY
+            MATERIALS WILL BE CAUSE FOR REFUSAL OF APPOINTMENT OR IMMEDIATE
             DISMISSAL AT ANY TIME DURING THE PERIOD OF MY APPOINTMENT</p>
-            <div class="submit-container">
-                <div class="form-element">
-                    <input type="submit" value="SUBMIT">
-                </div>
-                <div class="form-element">
-                    <input type="button" value="CANCEL">
-                </div>
+        <div class="submit-container">
+            <div class="submit-element">
+                <input id="btn-submit" type="submit" value="SUBMIT">
             </div>
+            <div class="submit-element">
+                <input id="btn-cancel" type="button" value="CANCEL">
+            </div>
+        </div>
     </section>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,78 @@
-p{
-    color: blue;
+* {
+    padding: 0%;
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #63677b;
+}
+
+input[type=text] {
+    border: .5px #ebebeb solid;
+    height: 30px;
+    width: 250px;
+    border-radius: 3px;
+}
+
+input[type=checkbox] {
+    border: .5px #ebebeb solid;
+    height: 15px;
+    width: 15px;
+    border-radius: 3px;
+}
+
+p {
+    font-style: italic;
+}
+
+input[type=button] {
+    background-color: #3a3333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px 15px 20px;
+}
+
+input[type=submit] {
+    background-color: #3a3333;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 15px 20px 15px 20px;
+}
+
+.ttl-section {
+    margin-bottom: 40px;
+    background-color: #182f6a;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.ttl-ack {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid-data {
+    display: grid;
+    grid-template-columns: repeat(2,252px);
+    grid-template-rows: repeat(2, 90px);
+    gap: 20px;
+}
+.submit-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
 }
