@@ -5,11 +5,14 @@
     color: #63677b;
 }
 
-input[type=text] {
+input:not([type]), input[type="text"]  {
     border: .5px #ebebeb solid;
     height: 30px;
     width: 250px;
     border-radius: 3px;
+}
+.error{
+    border: .5px red solid !important;
 }
 
 input[type=checkbox] {
@@ -76,3 +79,12 @@ input[type=submit] {
     justify-content: center;
     margin-top: 40px;
 }
+.required:after {
+    content:" *";
+    color: red;
+}
+
+.checkbox{
+    width: 500px;
+}
+

@@ -14,66 +14,66 @@
 </head>
 
 <body>
-    <section class="form">
+    <section id="form">
         <h1 class="ttl-section">Personal Information</h1>
         <div class="name-container">
-            <div class="form-element required">
-                <label for="first-name">First Name</label>
-                <input id="first-name" type="text">
+            <div class="form-element">
+                <label for="first-name" class="required">First Name</label>
+                <input id="first-name" class="check" required  type="text">
             </div>
             <div class="form-element">
                 <label for="middle-initial">Middle Initial</label>
                 <input id="middle-initial" type="text">
             </div>
-            <div class="form-element required">
-                <label for="last-name">Last Name</label>
-                <input id="last-name" type="text">
+            <div class="form-element">
+                <label for="last-name" class="required">Last Name</label>
+                <input id="last-name" class="check" required type="text">
             </div>
         </div>
         <div class="residential-container grid-data">
-            <div class="form-element required">
-                <label for="residential-street-1">Residential Street Address</label>
-                <input id="residential-street-1" type="text">
+            <div class="form-element">
+                <label for="residential-street-1" class="required">Residential Street Address</label>
+                <input id="residential-street-1" class="check" required type="text">
             </div>
             <div class="form-element">
                 <label for="residential-street-2">Residential Street Address 2</label>
                 <input id="residential-street-2" type="text">
             </div>
-            <div class="form-element required">
-                <label for="residential-city">Residential City</label>
-                <input id="residential-city" type="text">
+            <div class="form-element">
+                <label for="residential-city" class="required">Residential City</label>
+                <input id="residential-city" class="check" required type="text">
             </div>
-            <div class="form-element required">
-                <label for="residential-zip">Residential Zip</label>
-                <input id="residential-zip" type="text">
+            <div class="form-element">
+                <label for="residential-zip" class="required">Residential Zip</label>
+                <input id="residential-zip" class="check" required type="text">
             </div>
         </div>
-        <div class="form-element">
+        <div id="checker" class="form-element">
             <label for="mailing-checkbox">Is your Mailing Address the same as your Residential Address?</label>
-            <label><input id="mailing-checkbox" type="checkbox"/>Yes</label>
+            <label class="checkbox"><input id="mailing-checkbox" type="checkbox" />Yes</label>
         </div>
         <div class="mailing-container grid-data">
             <div class="form-element">
-                <label for="mailing-address">Mailing Street Address</label>
-                <input id="mailing-address" type="text">
+                <label for="mailing-street-1" class="required">Mailing Street Address</label>
+                <input id="mailing-street-1" class="check" required type="text">
             </div>
             <div class="form-element">
-                <label for="mailing-address-2">Mailing Street Address 2</label>
-                <input id="mailing-address-2" type="text">
+                <label for="mailing-street-2">Mailing Street Address 2</label>
+                <input id="mailing-street-2" type="text">
             </div>
-            <div class="form-element required">
-                <label for="mailing-city">Mailing City</label>
-                <input id="mailing-city" type="text">
+            <div class="form-element">
+                <label for="mailing-city" class="required">Mailing City</label>
+                <input id="mailing-city" class="check" required type="text">
             </div>
-            <div class="form-element required">
-                <label for="mailing-zip">Mailing Zip</label>
-                <input id="mailing-zip" type="text">
+            <div class="form-element">
+                <label for="mailing-zip" class="required">Mailing Zip</label>
+                <input id="mailing-zip" class="check" required type="text">
             </div>
         </div>
         <div class="contacts-container grid-data">
-            <div class="form-element required">
-                <label for="primary-phone">Primary Phone Number</label>
-                <input id="primary-phone" type="text">
+            <div class="form-element">
+                <label for="primary-phone" class="required">Primary Phone Number</label>
+                <input id="primary-phone" class="check" type="text" required>
             </div>
             <div class="form-element">
                 <label for="secondary-phone">Secondary Phone Number</label>
@@ -83,9 +83,9 @@
                 <label for="fax-number">Fax Number</label>
                 <input id="fax-number" type="text">
             </div>
-            <div class="form-element required">
-                <label for="email-address">E-mail Address</label>
-                <input id="email-address" type="text">
+            <div class="form-element">
+                <label for="email-address" class="required">E-mail Address</label>
+                <input id="email-address" class="check" required type="text">
             </div>
         </div>
 
