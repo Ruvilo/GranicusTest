@@ -1,25 +1,25 @@
 * {
     padding: 0%;
-    margin: 5px;
+    margin: 0.3125rem;
     font-family: 'Open Sans', sans-serif;
     color: #63677b;
 }
 
 input:not([type]), input[type="text"]  {
-    border: .5px #ebebeb solid;
-    height: 30px;
-    width: 250px;
-    border-radius: 3px;
+    border: 0.0313rem #ebebeb solid;
+    height: 1.875rem;
+    width: 15.625rem;
+    border-radius: 0.1875rem;
 }
 .error{
-    border: .5px red solid !important;
+    border: 0.0313rem red solid !important;
 }
 
 input[type=checkbox] {
-    border: .5px #ebebeb solid;
-    height: 15px;
-    width: 15px;
-    border-radius: 3px;
+    border: 0.0313rem #ebebeb solid;
+    height: 0.9375rem;
+    width: 0.9375rem;
+    border-radius: 0.1875rem;
 }
 
 p {
@@ -30,25 +30,25 @@ input[type=button] {
     background-color: #3a3333;
     color: white;
     border: none;
-    border-radius: 3px;
-    padding: 15px 20px 15px 20px;
+    border-radius: 0.1875rem;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
 }
 
 input[type=submit] {
     background-color: #3a3333;
     color: white;
     border: none;
-    border-radius: 3px;
-    padding: 15px 20px 15px 20px;
+    border-radius: 0.1875rem;
+    padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
 }
 
 .ttl-section {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     background-color: #182f6a;
     color: white;
-    padding: 20px;
+    padding: 1.25rem;
     font-weight: 500;
-    border-radius: 3px;
+    border-radius: 0.1875rem;
 }
 
 .ttl-ack {
@@ -69,15 +69,15 @@ input[type=submit] {
 
 .grid-data {
     display: grid;
-    grid-template-columns: repeat(2,252px);
-    grid-template-rows: repeat(2, 90px);
-    gap: 20px;
+    grid-template-columns: repeat(2,15.75rem);
+    grid-template-rows: repeat(2, 5.625rem);
+    gap: 1.25rem;
 }
 .submit-container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 40px;
+    margin-top: 2.5rem;
 }
 .required:after {
     content:" *";
@@ -85,6 +85,6 @@ input[type=submit] {
 }
 
 .checkbox{
-    width: 500px;
+    width: 31.25rem;
 }
 
