@@ -43,7 +43,7 @@ const checkRequired = () => {
 
     }
     else {
-        Swal.success("Submitted");
+        Swal.fire("submitted")
     }
 }
 
