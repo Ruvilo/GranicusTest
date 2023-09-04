@@ -35,15 +35,15 @@ const checkRequired = () => {
         $(input).val() ? $(input).removeClass("error") : $(input).addClass("error")
     })
     if ($(':input', '#form').hasClass("error")) {
-        alert("Fill all required fields")
+        Swal.fire("Fill all required fields", "Please check all fields was filled")
     }
     else if (!checkEmail()) {
         $("#email-address").addClass("error")
-        alert("Invalid email")
+        Swal.fire("Invalid email", "Please check your email address")
 
     }
     else {
-        alert("submitted")
+        Swal.success("Submitted");
     }
 }
 
