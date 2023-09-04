@@ -1,6 +1,5 @@
 * {
     padding: 0%;
-    margin: 0.3125rem;
     font-family: 'Open Sans', sans-serif;
     color: #63677b;
 }
@@ -41,7 +40,9 @@ input[type=submit] {
     border-radius: 0.1875rem;
     padding: 0.9375rem 1.25rem 0.9375rem 1.25rem;
 }
-
+.form *{
+    margin: 0.3125rem;
+}
 .ttl-section {
     margin-bottom: 2.5rem;
     background-color: #182f6a;
@@ -87,4 +88,3 @@ input[type=submit] {
 .checkbox{
     width: 31.25rem;
 }
-
